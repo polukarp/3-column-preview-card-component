@@ -64,6 +64,9 @@ body {
     }
     &__action-btn {
         border-radius: 1.5em;
+        background-color: white;
+        text-align: center;
+        cursor: pointer;
         padding: 1em;
         width: 60%;
         border: none;
@@ -78,19 +81,19 @@ body {
 .bg {
     &-primary {
         background-color: $primary;
-        button {
+        a {
             color: $primary;
         }
     }
     &-secondary {
         background-color: $secondary;
-        button {
+        a {
             color: $secondary;
         }
     }
     &-accent {
         background-color: $accent;
-        button {
+        a {
             color: $accent;
         }
     }

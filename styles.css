@@ -51,6 +51,9 @@ body {
 
 .card__action-btn {
   border-radius: 1.5em;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
   padding: 1em;
   width: 60%;
   border: none;
@@ -64,7 +67,7 @@ body {
   background-color: #e38826;
 }
 
-.bg-primary button {
+.bg-primary a {
   color: #e38826;
 }
 
@@ -72,7 +75,7 @@ body {
   background-color: #006970;
 }
 
-.bg-secondary button {
+.bg-secondary a {
   color: #006970;
 }
 
@@ -80,6 +83,6 @@ body {
   background-color: #004241;
 }
 
-.bg-accent button {
+.bg-accent a {
   color: #004241;
 }
