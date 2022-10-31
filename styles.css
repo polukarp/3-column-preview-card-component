@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  font-family: 'Lexend Deca';
+}
+
+.wrapper {
+  max-width: 325px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    max-width: 800px;
+    flex-direction: row;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em;
+  gap: 1em;
+}
+
+.card__image {
+  max-width: 60px;
+  display: block;
+}
+
+.card__title {
+  font-family: 'Big Shoulders Display';
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.card__subtitle {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card__action-btn {
+  border-radius: 1.5em;
+  padding: 1em;
+  width: 60%;
+  border: none;
+}
+
+.card__action-btn:hover {
+  filter: brightness(85%);
+}
+
+.bg-primary {
+  background-color: #e38826;
+}
+
+.bg-primary button {
+  color: #e38826;
+}
+
+.bg-secondary {
+  background-color: #006970;
+}
+
+.bg-secondary button {
+  color: #006970;
+}
+
+.bg-accent {
+  background-color: #004241;
+}
+
+.bg-accent button {
+  color: #004241;
+}
